@@ -1,0 +1,281 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+}
+.menu-icon{
+  display: none;
+}
+.vertical-menu{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(212, 137, 145, 0.884);
+  position: relative;
+  
+}
+.vertical-menu img{
+  width: 115px;
+  height: 100px;
+  padding: 25px;
+  border-bottom: 0.5px solid slateblue;
+}
+.header{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 90%;
+  height: 80px;
+  background-color: rgb(170, 144, 223);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+.logo img{
+  width: 50px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logotext h4{
+  word-spacing: 3px;
+}
+.logotext{
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.search{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.menu ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu li{
+  padding: 0 20px;
+}
+.search button{
+  padding: 10px 0;
+}
+.menu img{
+  width: 40px;
+}
+.main{
+  width: 90%; 
+  position: absolute;
+  top: 80px;
+  right: 0;
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+}
+.list{
+  background-color: skyblue;
+  padding: 15px;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+.list ul{
+  list-style: none;
+}
+.list ul li{
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid slateblue;
+}
+.section-1{
+  display: grid;
+}
+.sec1{
+  background-image: url(img-1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+.sec1 h3{
+  margin: 50px;
+}
+.sec1 h2{
+  margin: 50px;
+}
+.div1{
+  background: linear-gradient(#788878,#78a44556), url(div-1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.div2{
+background: linear-gradient(rgba(255, 90, 78, 0.877),rgba(170, 144, 223, 0.527)),url(div-2.jpg);
+background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.div3{
+  background-image: url(div-3.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* padding: 55px; */
+}
+.div1 p{
+  margin-top: 10px;text-align: center;font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: White;
+  font-weight: bold;}
+  
+.div1 p:nth-child(2){
+  margin-bottom: 150px;
+  text-align: center;
+  color: White;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div1 h4{
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 253, 253);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div2 p{
+  margin-top: 10px;
+  margin-left: 15px;
+  color: White;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div2 p:nth-child(2){
+  color: White;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 150px;
+}
+.div2 h4{
+  text-align: center;
+  font-size: 1.7rem;
+  color: rgb(255, 253, 253);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.div3 p {
+  margin-top: 10px;
+  text-align: center;
+  color: White;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div3 h4{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 1.7rem;
+  color: rgb(255, 253, 253);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.sec2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+  gap: 10px;
+}
+.section-2{
+  width: 100%;
+  padding: 10px;
+}
+
+.card1{
+  height: 44%;
+  width: 100%;
+  border: 1px solid black; 
+  margin-bottom: 10px; 
+}
+.section-2 img{
+  width: 100%;
+}
+.section-2 h3{
+  margin-bottom: 7px;
+}
+.section-2 p{
+  text-align: center;
+}
+.card2{
+  height: 44%;
+  width: 100%;
+  border: 1px solid sienna;  
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+/* 1050px */
+@media screen and (max-width:1050px) {
+  .logotext{
+    display: none;
+  }
+  
+}
+@media screen and (max-width:950px) {
+  .main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-1{
+    width: 100%;
+  }
+  .section-2{
+    width: 100%;
+  }
+  .sec1{
+    display: flex;
+    flex-direction: column;
+  }
+  .sec2{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+
+
+@media only screen  and (min-width:250px) and (max-width:750px) {
+  .menu ul{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+  .header{
+    width: 80%;
+    height: 60px;
+  }
+  .vertical-menu{
+    width: 20%;
+  }
+  .vertical-menu img{
+    width: 80px;
+    height: 65px;
+    padding: 15px;
+  }
+}
